@@ -30,7 +30,6 @@ def ingest_data():
             w.append(int(lista[1]))
             w.append(float(lista[2].replace(',','.')))
             w.append(' '.join(lista[4:]))
-
         elif re.match('^ +\w', fila):
             palabras = fila.split()
             palabras = ' '.join(palabras)
