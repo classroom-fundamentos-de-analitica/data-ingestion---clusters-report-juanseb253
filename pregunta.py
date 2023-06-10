@@ -40,6 +40,6 @@ def ingest_data():
             fin.append(w)
             w = []
 
-    df = pd.DataFrame (fin, columns = ['cluster', 'cantidad_de_palabras_clave', 'porcentaje_de_palabras_clave', 'principales_palabras_clave'])
+    df = pd.DataFrame (fin, columns = ['luster', 'cantidad_de_palabras_clave', 'porcentaje_de_palabras_clave', 'principales_palabras_clave'])
     return df
 
